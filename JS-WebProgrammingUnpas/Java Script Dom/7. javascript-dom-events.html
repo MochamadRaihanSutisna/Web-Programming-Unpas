@@ -21,6 +21,7 @@
             margin: 30px auto;
             font-family: sans-serif;
             color: #333;
+            font-family: monospace;
         }
     </style>
 </head>
@@ -33,7 +34,9 @@
             <p class="p1">paragraf 1</p>
             <a href="http://instagram.com/sandhikagalih">Instagram Sandhika Galih</a>
             <p class="p2">paragraf 2</p>
-            <p class="p3">paragraf 3</p>
+            <p class="p3" onclick="ubahWarnaP3 ()">paragraf 3</p>
+            <!-- Inline HTMl Attribute -->
+
         </section>
         <section id="b">
             <p>paragraf 4</p>
@@ -46,30 +49,8 @@
     </div>
 
 
-    <script>
-        const p3 = document.querySelector(".p3");
-        p3.style.backgroundColor = "green"
+    <script src="7. javascript-dom-events.js"></script>
 
-
-        /*
-
-            "Events pada javascript merepresentasikan sebuah kejadian yang terjadi di dalam DOM"
-
-
-            ..Kejadian tersebut bisa dilakukan oleh user, (mouse event, keyboard event, dll)
-
-            ataupun dilakukan secara otomatis API (animasi selesai dijalankan, halaman selesai diload, dll)
-
-            
-
-            cara mendengarkan event
-                > Event Handler
-                    - inline HTML attribute
-                    - Element method
-                > addEventListener()
-
-        */
-    </script>
 
 </body>
 
