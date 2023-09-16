@@ -1,0 +1,44 @@
+body {
+	background-image: url(dark-paths.png) ;
+	font-family: arial;
+}
+
+h1, h2 {
+	color: greenyellow;
+	font-weight: bold;
+}
+
+ul li a {
+	color: green;
+}
+
+ol li a {
+	color: blue;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	
+}
+
+a {
+	color: white;
+
+}
+
+.cetak-miring {
+	font-style: italic; 
+}
+
+#p1 {
+	color: white;
+}
+
+.p2 {
+	color: gold;
+}
+
+.cetak-tebal {
+	font-weight: bold;
+}

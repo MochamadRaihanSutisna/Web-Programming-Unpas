@@ -1,0 +1,43 @@
+body {
+	background-image: url(background.png);
+}
+
+.container {
+	width: 800px;
+	border: 1px solid white;
+	margin: auto;
+	padding: 5 px;
+	background-color: whitesmoke;
+	
+}
+
+.satu {
+	background-color: greenyellow;
+	width: 150px;
+	height: 150px;
+}
+
+.dua {
+	width: 550px;
+	background-color: palevioletred; 
+	padding: 10px;
+	margin-bottom: 50px;
+	float: right;
+	height: 500px;
+}
+
+.p1 {
+	padding: 200px;
+}
+
+.tiga {
+	width: 150px;
+	background-color: skyblue;
+	float: left;
+	height: 150px;
+
+}
+
+.p2 {
+	padding: 200px;
+}

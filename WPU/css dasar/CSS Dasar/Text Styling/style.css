@@ -1,0 +1,45 @@
+/*
+TEXT STYLING
+> Komentar (/* ..... *./ {titik dihilangkan})
+> color = Memberi warna pada tulisan
+	- Nama Warna
+	- Hexadecimal
+	- rgb / RGba
+		-- Untuk pencarian warna bisa di Photoshop atau di web www.colorpicker.com
+> text-align = Mengatur format pada paragraf / teks
+	- left (rata kiri)
+	- right (rata kanan)
+	- justify (rata kiri kanan)
+	- center (rata tengah)
+> text-indent = Memberi indentasi pada paragraf / teks
+	-px
+	-%
+> text- decoration = Mengatur dekorasi pada text 
+> text-trasform = Mengubah jenis huruf menjadi huruf besar, kecil / kapital
+> letter-spacing = Mengatur spasi antar huruf
+> word-spacing = mengatur spasi antar kata
+*/
+
+h1 {
+	font: italic small-caps bold 40px/2em serif	;
+	color: blue;
+}
+
+#satu {
+	color: #ff0000;
+	text-indent: 100PX ;
+}
+
+#dua {
+	color: rgb(65, 105, 225);
+}
+
+#tiga {
+	text-align: center;
+	font-family: monospace;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 2em;
+	font-size: 30px; 
+}

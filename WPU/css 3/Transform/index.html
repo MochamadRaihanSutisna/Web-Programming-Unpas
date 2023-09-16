@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+
+    <style>
+        
+        /* Fungsi Transform 
+        -Scale (Memperbersar atau memperkecil)
+        -Rotate (Memutar)
+        -Skew (Membuat Condong atau Miring)
+        -Translate (Mengubah Posisi)
+
+        -- Scale(angka), ScaleX(angka), ScaleY(angka) --> dari 0.1 sampai 1 keatas 
+        -- Rotate(deg), RotateX(angka), RotateY(angka)
+        -- Skew(deg), SkewX(deg), SkewY(deg)
+        -- Translate(px), TranslateX(px), TranslateY(px) 
+        */
+
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .satu {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            margin: 50px auto 0;
+            transition: 1s;
+            box-shadow: inset 5px 5px 5px red;
+        }
+
+        .dua {
+            width: 200px;
+            height: 200px;
+            background-color:yellow;
+            margin: 50px auto 0;
+            transition: 1s;
+            box-shadow: inset 5px 5px 5px green ;
+        }
+
+        .tiga {
+            width: 200px;
+            height: 200px;
+            background-color:red;
+            margin: 50px auto 0;
+            transition: 1s;
+            box-shadow: inset 5px -5px 5px  aqua ;
+        }
+
+        
+        .empat {
+            width: 200px;
+            height: 200px;
+            background-color:green;
+            margin: 50px auto 0;
+            transition: 2s;
+            box-shadow: inset -5px 5px 1px  orangered ;
+        }
+
+        .satu:hover {
+            transform: scaleX(1) scaleY(2) ;
+        }
+
+        .dua:hover {
+            transform: rotate(90deg) rotateX(90deg) rotateY(90deg);
+        }
+
+        .tiga:hover {
+            transform:  skewX(20deg) skewY(30deg);
+        }
+
+        .empat:hover {
+            transform: translate(50px) translateX(-90px) translateY(90px);
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+    <div class="empat"></div>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quaerat est nam corporis voluptate adipisci consectetur sit iste soluta, consequuntur, possimus, magni dolores repudiandae velit! Officiis debitis qui, facere necessitatibus esse sapiente culpa ad quia, rerum quis, quisquam maiores. Ducimus voluptatibus aut quo itaque nostrum, doloribus quis esse corporis perferendis.</p>
+    
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+body {
+	background-image:url(background.png) ;
+}
+
+h1 {
+	color: white;
+	font-size: 50px;
+	font-style: oblique;
+	font-variant: small-caps;
+
+
+}
+
+p	{
+	font-family: calibri;
+	color: white;
+	font-style: italic;
+}

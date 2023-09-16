@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Border Radius</title>
+	<style>
+
+		/*
+			Border radius membuat ujung kotak menjadi tumpul
+
+			parameter = atas kiri > atas kanan > bawah kanan > bawah kiri 
+			--- Bisa pakai PX, % atau EM---
+			is equivalent to:
+			border radius
+			border-top-left-radius 
+			border-top-right-radius 
+			border-bottom-right-radius
+			border-bottom-left-radius 
+		*/
+
+		body { 
+			background-color: yellowgreen
+			
+		}
+		.satu {
+			width: 300px;
+			height: 300px;
+			border-radius: 20px 50px 50px 0px ;
+			text-align: center;
+			overflow:hidden;
+			
+	
+		}
+
+		div img {
+			width: 300px;
+		}
+
+		.dua {
+			background-color: green;
+			width: 300px;
+			height: 300px;
+			margin: 20px auto;
+			border-radius: 100px 0px 100px 0px;
+		}
+
+		.tiga {
+			background-color: blue;
+			width: 300px;
+			height: 300px;
+			border-radius: 50%;
+		}
+
+		.empat {
+			background-color: aqua;
+			height: 300px;
+			width: 300px;
+			margin: 40px;
+			border-radius: 0px 50% 50% 0px;	
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="satu">
+		<img src="raihan.png"> 
+	</div>
+
+	<div class="dua"></div>
+
+	<div class="tiga"></div>
+
+	<div class="empat"></div>
+
+</body>
+
+</html>

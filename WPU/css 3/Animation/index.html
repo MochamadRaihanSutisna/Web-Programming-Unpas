@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+        /*
+
+        Animation bisa digunakan satu persatu atau pun di satu sekaligus
+
+        ---   Property Animation ---
+
+        Name [ Nama Dari Animasi]
+        Duration----------->| 
+        Timing - Function-->|--> Ketiga property sama dengan transition
+        Delay-------------->|
+        Iteration - Count---> Bisa menggunakan angka atauoun INFINATE [mengulang kembali]
+        Direction---> Bisa menggunakan Normal[Berjalan dari awal ke akhir] , Reverse [Kebalikan dari Normal], Alternate [Berganti seperti Normal dan Reverse], Alternate-Reverse [Kebalikan dari Alternate]
+        Fill- Mode---> Menentukan akhir dari transisi [ None| Forwards| Backwards| Both]
+        Play - State.---> [ Running| Paused]
+        
+        */
+
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: salmon; 
+        
+        }
+        
+        .kotak:hover {
+            animation: animasiKotak 2s ease infinite alternate forwards ;
+        }
+
+        @keyframes animasiKotak {
+            0% {
+                width: 200px;
+            }
+
+            50% {
+                width: 500px;
+                height: 200px;
+            }
+
+            100% {
+                width: 500px;
+                height: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="kotak"></div>
+
+    
+</body>
+</html>

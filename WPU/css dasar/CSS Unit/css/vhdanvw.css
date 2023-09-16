@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.boxempat {
+    background-color:red;
+    min-height: 100vh;
+    width: 100%;   
+    position:relative;
+    color: black;
+    
+}
+/*dengan kode yang tertera diatas yakni tinggi: 100vh dan width nya 100vw sehingga apabila kita jalankan programm tersebut dijalankan dengan background setinggi 100vh dan lebar 100vw akan tetapi background tersebut tidak memenuhi layar sehingga terdapat elemen yang lain muncul*/
+
+.boxempat .adikempat {
+    background-color: blue;
+    height: 50px;
+    width: 50vw;
+    z-index: -9999;
+
+}

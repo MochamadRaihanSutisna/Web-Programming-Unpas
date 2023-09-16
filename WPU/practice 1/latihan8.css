@@ -1,0 +1,32 @@
+#wrapper{
+		width: 960px;
+		height: 0 auto; /*agar wrapper tetap berada ditengah */
+}
+#header{
+		width: 100px;
+		height: 50px;
+		background: blue;
+		margin-bottom: 10px;
+}
+#content{
+		padding:20px;
+		background: green;
+		margin-bottom: 10px;
+}
+#artikel{
+		width: 600px;
+		height: 700px;
+		float: left;
+		background: red;
+}
+#sidebar{
+		width: 300px;
+		height: 200px;
+		float: right;
+		background: darkred;
+}
+#footer{
+		width: 100px;
+		height: 50px;
+		background: purple;
+}

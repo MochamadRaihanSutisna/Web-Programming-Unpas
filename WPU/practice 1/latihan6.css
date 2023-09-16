@@ -1,0 +1,10 @@
+.box{
+	background-color: Blue;
+	color: darkred;
+	width: 200px;
+	height: 100px;
+	margin: 20px 20px 20px 20px;
+	padding-left: 20px;
+	border: green solid 5px;
+	font-family: algerian;
+}

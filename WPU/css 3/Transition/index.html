@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+
+    <style>
+        /* --TRANSITION--
+        definisi mengubah nilai property HTML secara halus 
+        {Rumus TRANSITION --> [property] [durasi < s / ms] [fungsi] [delay]
+            --Properti yang diubah secara haluis
+                >background-color
+                >background-position
+                >background-size
+                >border
+                >color
+                >filter
+                >fdnt-size
+                >line-height
+                >top left bottom right
+                >margin padding
+                >widht height
+                >opacity
+                >transform
+                >word-spacing
+                >letter-spacing
+
+            --Fungsi transisi / timing function
+                >ease
+                >ease-in (awal pelan lalu ngebut)
+                >ease-out
+                >ease-in-out
+                >linear
+                >cubic-bezier (w,x,y,z) / bisa mengatur skala di inspect mozila firefox 
+
+            --Delay / jeda beberapa saat
+
+            
+        */
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 900px;
+            margin: 10px auto;
+            border: 5px solid black;
+        }
+
+        .kotak {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .satu { transition: 2s;}
+        .dua { transition: all 2s ease;}
+        .tiga { transition: all 2s ease-in;}
+        .empat { transition: all 2s ease-out;}
+        .lima { transition: all 2s ease-in-out;}
+        .enam { transition: all 2s linear;}
+        .tujuh { transition: all 2s cubic-bezier(0.24, -0.35, 0.78, 1.46);}
+        .delapan { transition: 1s 2s;}
+        .sembilan { transition: margin-left 3s, transform 3s 2s, background-color 2s 3s;}
+
+        
+        .container:hover .kotak {
+            transform: rotate(720deg );
+            margin-left: 800px;
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="kotak satu">waktu</div>
+        <div class="kotak dua">ease</div>
+        <div class="kotak tiga">ease-in</div>
+        <div class="kotak empat">ease-out</div>
+        <div class="kotak lima">ease-in-out</div>
+        <div class="kotak enam">linear</div>
+        <div class="kotak tujuh">cubic-bezier</div>
+        <div class="kotak delapan">delay</div>
+        <div class="kotak sembilan">penambahan </div>
+        
+    </div>
+
+    
+    
+
+
+</body>
+</html>

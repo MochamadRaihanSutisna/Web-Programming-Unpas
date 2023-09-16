@@ -1,0 +1,59 @@
+/*
+FONT STYLING
+
+> font-family = Mengatur jenis font yang akan digunakan (ex: Times New Roman , Calibry, etc)
+-- Sans Serif adalah jenis font yang memiliki kaki sedangkan serif sebaliknya
+
+> font-size = Mengatur ukuran font (10 px, em, rem, % etc)
+> font-weight = Mengatur Ketebalan Font (10 px, em, etc dan bolder, bold, etc)
+> font-variant = Mengubah font menjadi Small Caps (hURUF KAPITAL DARI UKURAN BESAR KE KECIL) {ex: "Raihan => HELLO WORLD akan tetapi huruf kapital tersebut berbeda ukurannya"}
+> font-style = mengubah font menjadi bercetak miring
+> line-height = mengatur spasi antar baris
+
+FONT BISA DIGABUNGKAN SEMUANYA DENGAN CONTOH 
+[
+	example
+	body {
+		font: font-style > font-variant > font weight > font-size > line-height > font-family
+	}	
+]
+*/
+
+h1 {
+	font-family: sans-serif;
+	font-size: 50px;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+
+p {
+	font-size: 20px;
+}
+
+
+/* font: font-style > font-variant > font weight > font-size > line-height > font-family*/
+#satu {
+	font: italic small-caps bold 30px/2em monospace, sans-serif  ;
+}
+
+/* 	  font: font-style (optional)
+			font-variant (optional)
+			font-weight (optional)
+			font-size (WAJIB)
+			line-height (optional)
+			font-family (WAJIB )
+
+
+*/
+
+#dua {
+	font-weight: bold;
+	color: blue;
+}
+
+#tiga {
+	font-weight: bold;
+	color: green;
+	line-height: 2vh;
+}

@@ -1,0 +1,17 @@
+.boxtiga {
+    width: 60ch;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*60 Karakter 0 untuk font 'Georgia'*/
+
+.satu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 40ch;
+}
+
+/*40 Karakter 0 untuk font 'Georgia'*/
+
+a {
+    font-size: 30px;
+}
