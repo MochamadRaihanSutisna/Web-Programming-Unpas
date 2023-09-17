@@ -25,13 +25,27 @@
                 > Drag & Drop Event
                 > dll
 
-            Mouse Event
-                > click
-                > dblclick
-                > mouseover
-                > mouseenter
-                > mouseup
-                > wheel
+                    Mouse Event
+                        > click
+                        > dblclick
+                        > mouseover
+                        > mouseenter
+                        > mouseup
+                        > wheel
+                        > mouseleave
+
+                    Keyboard Event
+                        > keydown
+                        > keypress
+                        > keyup
+
+                    View Events
+                        > resize
+                        > scroll
+                        
+                    Form Event
+                        > reset
+                        > submit
 
 */
 
